@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><testsuites><testsuite name="test.datatest.DataIndexAndRestoreTestCase"><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testAndroidTestCaseSetupProperly" time="0.007" /><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testBackupIncomingCallLogs" time="0.327" /><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testBackupMissedCallLogs" time="0.276" /><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testBackupOutgoingCallLogs" time="0.356" /><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testCallLog" time="0.003"><failure message="junit.framework.AssertionFailedError: testCallLog is failed" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: testCallLog is failed
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at test.datatest.DataIndexAndRestoreTestCase.testCallLog(DataIndexAndRestoreTestCase.java:65)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:525)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)
+	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)
+	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1840)
+</failure></testcase><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testContacts" time="32.818" /><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testDeleteAllBackupCallLogsToBackup" time="0.290" /><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testSms" time="1.990" /><testcase classname="test.datatest.DataIndexAndRestoreTestCase" name="testSystemSetting" time="2.681" /></testsuite></testsuites>
